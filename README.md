@@ -1,1 +1,1 @@
-# I_Proyecto_Dise-o_Sistemas_Digitales
+# I-Proyecto-Laboratorio-de-Dise-o-Sistemas-Digitales

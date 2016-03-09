@@ -1,0 +1,51 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: I.T.C.R
+// Engineer: Jafet Chaves Barrantes
+// 
+// Create Date:    17:02:57 02/28/2016 
+// Design Name: 
+// Module Name:    Conversor_BCD_7seg 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module Conversor_BCD_7seg
+(
+input wire [3:0] Valor_Decimal,
+output reg [7:0] Code_7seg    
+);
+
+//Descripción combinacional del valor decimal a código para el 7 segmentos
+
+always @*
+
+begin
+
+case(Valor_Decimal)
+
+4'h0: Code_7seg = 8'b00000011; //0
+4'h1: Code_7seg = 8'b10011111; //1
+4'h2: Code_7seg = 8'b00100101; //2
+4'h3: Code_7seg = 8'b00001101; //3
+4'h4: Code_7seg = 8'b10011001; //4
+4'h5: Code_7seg = 8'b01001001; //5
+4'h6: Code_7seg = 8'b01000001; //6
+4'h7: Code_7seg = 8'b00011111; //8
+4'h8: Code_7seg = 8'b00000001; //9
+4'h9: Code_7seg = 8'b00001001; //Caso default no enciende el 7 seg
+default: Code_7seg = 8'b11111111; 
+
+endcase
+
+end
+
+endmodule

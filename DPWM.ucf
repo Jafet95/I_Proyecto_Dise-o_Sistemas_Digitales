@@ -1,0 +1,44 @@
+
+NET "boton_aumentar" LOC = A8;
+NET "boton_disminuir" LOC = C9;
+NET "Full_Bridge" LOC = V12;
+NET "reinicio" LOC = B8;
+NET "seleccion_funcion" LOC = T10;
+NET "seleccion_salida" LOC = T9;
+NET "BUCK_Gate" LOC = T12;
+NET "CLK_FPGA_BOARD" LOC = V10;
+NET "anodos_7seg[3]" LOC = P17;
+NET "anodos_7seg[2]" LOC = P18;
+NET "anodos_7seg[1]" LOC = N15;
+NET "anodos_7seg[0]" LOC = N16;
+NET "catodos_7seg[7]" LOC = T17;
+NET "catodos_7seg[6]" LOC = T18;
+NET "catodos_7seg[5]" LOC = U17;
+NET "catodos_7seg[4]" LOC = U18;
+NET "catodos_7seg[3]" LOC = M14;
+NET "catodos_7seg[1]" LOC = L14;
+NET "catodos_7seg[2]" LOC = N14;
+NET "catodos_7seg[0]" LOC = M13;
+
+# PlanAhead Generated IO constraints 
+
+NET "anodos_7seg[3]" IOSTANDARD = LVCMOS33;
+NET "anodos_7seg[2]" IOSTANDARD = LVCMOS33;
+NET "anodos_7seg[1]" IOSTANDARD = LVCMOS33;
+NET "anodos_7seg[0]" IOSTANDARD = LVCMOS33;
+NET "catodos_7seg[7]" IOSTANDARD = LVCMOS33;
+NET "catodos_7seg[6]" IOSTANDARD = LVCMOS33;
+NET "catodos_7seg[5]" IOSTANDARD = LVCMOS33;
+NET "catodos_7seg[4]" IOSTANDARD = LVCMOS33;
+NET "catodos_7seg[3]" IOSTANDARD = LVCMOS33;
+NET "catodos_7seg[2]" IOSTANDARD = LVCMOS33;
+NET "catodos_7seg[1]" IOSTANDARD = LVCMOS33;
+NET "catodos_7seg[0]" IOSTANDARD = LVCMOS33;
+NET "boton_aumentar" IOSTANDARD = LVCMOS33;
+NET "boton_disminuir" IOSTANDARD = LVCMOS33;
+NET "BUCK_Gate" IOSTANDARD = LVCMOS33;
+NET "CLK_FPGA_BOARD" IOSTANDARD = LVCMOS33;
+NET "Full_Bridge" IOSTANDARD = LVCMOS33;
+NET "reinicio" IOSTANDARD = LVCMOS33;
+NET "seleccion_funcion" IOSTANDARD = LVCMOS33;
+NET "seleccion_salida" IOSTANDARD = LVCMOS33;
